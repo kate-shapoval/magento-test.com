@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="KateSh\MyModule\Block\AboutUs">
+        <plugin name="katesh_block_plugin" type="KateSh\MyModule\Plugin\MyModule\Block\Plugin" sortOrder="10" />
+    </type>
+
+    <!-- <preference for="KateSh\MyModule\Block\AboutUs" type="KateSh\MyModule\Block\Pref" /> -->
+</config>
