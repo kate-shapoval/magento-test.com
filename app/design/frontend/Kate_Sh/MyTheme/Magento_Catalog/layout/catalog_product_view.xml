@@ -9,15 +9,32 @@
     <body>
         <referenceContainer name="product.info.main">
              <container name="product.aboutus" htmlTag="div" htmlClass="product-aboutus" before="-">
-            <block class="KateSh\MyModule\Block\AboutUs" name="aboutus" template="KateSh_MyModule::about-us.phtml">
-            </block>
+                <block class="KateSh\MyModule\Block\AboutUs" name="aboutus" template="KateSh_MyModule::about-us.phtml">
+                </block>
              </container>
         </referenceContainer>
         <referenceContainer name="product.info.main">
              <container name="product.some.text" htmlTag="div" htmlClass="some-text" before="-">
-            <block class="KateSh\MyModule\Block\AboutUs" name="some.text" template="KateSh_MyModule::some-text.phtml">
-            </block>
+                <block class="KateSh\MyModule\Block\AboutUs" name="some.text" template="KateSh_MyModule::some-text.phtml">
+                </block>
              </container>
+        </referenceContainer>
+         <referenceContainer name="product.info.main">
+             <container name="product.set.name" htmlTag="div" htmlClass="set-name" before="-">
+                <block class="KateSh\MyModule\Block\AboutUs" name="set.name" template="KateSh_MyModule::set-name.phtml">
+                </block>
+             </container>
+        </referenceContainer>
+         <referenceContainer name="product.info.main">
+             <container name="product.set.surname" htmlTag="div" htmlClass="set-surname" before="-">
+                <block class="KateSh\MyModule\Block\AboutUs" name="set.surname" template="KateSh_MyModule::set-surname.phtml">
+                </block>
+             </container>
+        </referenceContainer>
+        <referenceContainer name="product.info.extrahint">
+            <container name="product.list" htmlTag="div" htmlClass="product-list" after="-">
+                <block class="KateSh\MyModule\Block\ShowProductList" name="show.product.list" template="KateSh_MyModule::show-product-list.phtml" />
+            </container>
         </referenceContainer>
     </body>
 </page>

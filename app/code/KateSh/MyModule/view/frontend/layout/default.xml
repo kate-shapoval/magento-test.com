@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<page
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   layout="admin-1column"
+   xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd"
+>
+   <head>
+       <link src="KateSh_MyModule/js/slick.min.js"/>
+       <link src="KateSh_MyModule/js/main.js"/>
+       <css src="KateSh_MyModule/css/slick.css"/>
+       <css src="KateSh_MyModule/css/slick-theme.css"/>
+       <css src="KateSh_MyModule/css/style.css"/>
+   </head>
+   <body/>
+</page>

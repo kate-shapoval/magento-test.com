@@ -11,5 +11,8 @@ class AboutUs extends \Magento\Framework\View\Element\Template
     public function setName($name)
     {
         return $name;
+    }public function setSurname($surname)
+    {
+        return $surname;
     }
 }

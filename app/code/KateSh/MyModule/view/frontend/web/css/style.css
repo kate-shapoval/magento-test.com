@@ -1,0 +1,8 @@
+.block-slider .slick-dots li button{background: #fefefe;}
+.block-slider .slick-prev,
+.block-slider .slick-next{
+	background: #fefefe;
+	color: #000;
+}
+/*.block-slider .image{padding: 10px;}*/
+/*.block-slider img{border: 5px solid #fff;}*/

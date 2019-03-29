@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:helloworld:Magento_Widget:etc/widget.xsd">
+	<widget class="KateSh\MyModule\Block\Widget\Slider" id="katesh_widjet_slider">
+		<label>Slick Slider</label>
+		<description>Slider</description>
+		<parameters>
+			<parameter name="quantity_slider" sort_order="10" visible="true" xsi:type="text">
+				<label>Quantity of slider</label>
+			</parameter>
+			<parameter name="image" xsi:type="block" required="true" visible="true" sort_order="10">
+                <label translate="true">Choose image for slider</label>
+                <block class="KateSh\MyModule\Block\Adminhtml\Widget\ImageChooser">
+                    <data>
+                        <item name="button" xsi:type="array">
+                            <item name="open" xsi:type="string">Choose Image...</item>
+                        </item>
+                    </data>
+                </block>
+			</parameter>
+		</parameters>
+	</widget>
+</widgets>

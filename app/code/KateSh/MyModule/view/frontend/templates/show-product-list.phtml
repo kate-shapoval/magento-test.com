@@ -1,0 +1,7 @@
+ <h4>Products list</h4> 
+<?php
+	$products = $block->getProducts();
+	foreach ($products as $product) {
+		echo '<p>'. $product->getName() .'</p>';
+	}
+?>

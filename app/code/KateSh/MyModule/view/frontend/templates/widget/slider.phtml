@@ -1,0 +1,34 @@
+<h3>Slider Widget</h3>
+<?php
+	$quantitySlider = $block->getData('quantity_slider');
+	if ( count($quantitySlider) > 0) {
+?>
+<div class="block-slider autoplay">
+ 	<?php
+		for ($i = 0; $i < $quantitySlider; $i++) {
+ 	?>
+  		<div class="image">
+ 			<img src="http://magentotest.com/pub/media/catalog/product/l/t/lt01.jpg" alt="">
+		</div>
+	<?php
+		}
+ 	?>
+</div>
+<?php
+	}
+?>
+<!-- <script type="text/javascript">
+    require([
+        'jquery',
+        'slick'
+    ], function($){
+        $('.block-slider').slick({
+		  slidesToShow: 3,
+		  slidesToScroll: 1,
+		  dots: true,
+		  autoplay: true,
+		  autoplaySpeed: 2000,
+		});
+    });
+</script>
+ -->
